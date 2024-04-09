@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    background-color: black;
+}
+
+header > p {
+    outline: none;
+    padding: 50px 50px 0 0;
+}
