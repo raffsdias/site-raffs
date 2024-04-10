@@ -1,13 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+
+/* ESTILIZAÇÃO DO CABEÇALHO */
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 0px;
     margin: 20px;
-    background-color: black;
 }
 
-header > p {
-    outline: none;
-    padding: 50px 50px 0 0;
+/* DOS TEXTOS DO CABEÇALHO */
+.links-cabecalho {
+    text-decoration: none;
+    display: flex;
 }
+
+.links-cabecalho p {
+    padding: 0 50px;
+}
+
+/* FINAL DO CABEÇALHO */
+
+
+/* ESTILIZAÇÃO DO BODY */
+
+body {align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: blueviolet;
+}
+
+
+/* SOBRE MIM */
+.sobremim {
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 20px;
+}
+
+.sobremim p {
+    padding: 20px;
+}
+/* DEIXAR A FOTO E O TEXTO DE LADO, SEM PERDER PROPORÇÕES */
+/* FINAL DO SOBRE MIM */
+
+/* SECTION - FLEX */
+.flex {
+    display: flex;
+}
+/* FINAL DA SECTION FLEX */
+
+/* CONTATOS */
+.contatos {
+    display: flex;
+}
+/* FINAL CONTATOS */
+/* INICIO FORM */
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.form h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all .3s; 
+}
+
+.form input:focus {
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all .3s;
+}
+
+.form textarea:focus {
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: .3s;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.form button:hover {
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+/* FINAL DO FORM */
+
